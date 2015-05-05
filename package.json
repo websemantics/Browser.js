@@ -1,0 +1,20 @@
+{
+    "name": "browserjs",
+    "version": "0.1.0",
+    "description": "Browser.js is an implementation of MathML, HTML and SVG Layout Manager and CSS Processor (i.e. Browser) in JavaScript.",
+    "main": "./dist/browser.js",
+    "repository": {
+        "type": "git",
+        "url": "git@github.com:websemantics/Browser.js.git"
+    },
+    "author": "Adnan Sagar, PhD.",
+    "license": "MIT",
+    "devDependencies": {
+        "grunt": "~0.4.1",
+        "grunt-contrib-uglify": "~0.2.0",
+        "grunt-contrib-concat": "~0.3.0",
+        "grunt-exec": "~0.4.2",
+        "mocha": "*",
+        "expect.js": "*"
+    }
+}

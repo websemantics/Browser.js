@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 20010904//EN"
+   "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd"  
+[
+<!ATTLIST svg xmlns:a3 CDATA #IMPLIED a3:scriptImplementation CDATA #IMPLIED>
+<!ATTLIST script a3:scriptImplementation CDATA #IMPLIED> 	
+<!ENTITY InvisibleTimes   "&#x02062;" ><!--marks multiplication when it is understood without a mark -->
+<!ENTITY PlusMinus        "&#x000B1;" ><!--alias ISONUM plusmn -->
+]>
+
+<svg version="1.2" pointer-events="all" width="100%" height="100%" xml:space="preserve" 
+    
+     xmlns="http://www.w3.org/2000/svg"
+     xmlns:xlink="http://www.w3.org/1999/xlink"
+     xmlns:math="http://www.w3.org/1998/Math/MathML"
+     xmlns:xhtml="http://www.w3.org/1999/xhtml">
+
+	<rect class="window" x="60" y="60" width="550" height="350" rx="0" ry="0" fill="#f1c40f">
+
+		<switch>
+		<foreignObject>
+		 <xhtml:html style="fill:yellow;color:red;">
+		  <xhtml:head>
+		   <title>An XHTML+MathML+SVG profile</title>
+		  </xhtml:head>
+		  <body>
+		   <p>Borwser.js bring the power of rendering HTML and MathML elements into JavaScript and SVG. It allows for creating sophisticated equations like the famous quadratic formula:
+				<math:math>
+		   		<mrow>
+					  <mi>x</mi>
+					  <mo>=</mo>
+					  <mfrac>
+					    <mrow>
+					      <mrow>
+					        <mo>-</mo>
+					        <mi>b</mi>
+					      </mrow>
+					      <mo>&PlusMinus;</mo>
+					      <msqrt>
+					        <mrow>
+					          <msup>
+					            <mi>b</mi>
+					            <mn>2</mn>
+					          </msup>
+					          <mo>-</mo>
+					          <mrow>
+					            <mn>4</mn>
+					            <mo>&InvisibleTimes;</mo>
+					            <mi>a</mi>
+					            <mo>&InvisibleTimes;</mo>
+					            <mi>c</mi>
+					          </mrow>
+					        </mrow>
+					      </msqrt>
+					    </mrow>
+					    <mrow>
+					      <mn>2</mn>
+					      <mo>&InvisibleTimes;</mo>
+					      <mi>a</mi>
+					    </mrow>
+					  </mfrac>
+					</mrow>
+				</math:math>, and here's another one: 
+				<math:math>
+				    <mrow>
+				        <mn>X</mn>
+				        <mo>=</mo>
+				        <mfrac>
+				            <mn>X+1</mn>
+				            <msup>
+				                <mn>(X+2X+5)</mn>
+				                <mn>n</mn>
+				            </msup>
+				        </mfrac>
+				        <mo>+</mo>
+				        <mfenced>
+				            <mfrac>
+				                <msub>
+				                    <mn>a</mn>
+				                    <mn>n</mn>
+				                </msub>
+				                <mn>Y</mn>
+				            </mfrac>
+				            <mo>+</mo>
+				            <mfrac>
+				                <mn>1</mn>
+				                <msqrt>
+				                    <mn>X</mn>
+				                </msqrt>
+				            </mfrac>
+				        </mfenced>
+				    </mrow>
+				</math:math>. Creating HTML Paragraphs, with inline images, <img src="../../img/smallicons/rocket.svg"></img> and much more. Makes life a whole lot easier, doesn't it!</p>
+
+		  </body>
+		 </xhtml:html>
+		</foreignObject>
+		</switch>
+	</rect>
+</svg>

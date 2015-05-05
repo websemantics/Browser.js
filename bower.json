@@ -1,0 +1,29 @@
+{
+  "name": "Browser.js",
+  "version": "0.1.0",
+  "homepage": "http://oeasvg.com/browserjs",
+  "authors": [
+    "Adnan Sagar, PhD <adnan@websemantics.ca>"
+  ],
+  "description": "Browser.js is an implementation of MathML, HTML and SVG Layout Manager and CSS Processor (i.e. Browser) in JavaScript.",
+  "main": "dist/browser-min.js",
+  "keywords": [
+    "browser",
+    "oea",
+    "oea.svg",
+    "svg",
+    "javascript",
+    "js"
+  ],
+  "dependencies": {
+    "Oea.svg": "*"
+  },
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
