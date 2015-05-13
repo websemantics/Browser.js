@@ -20,4 +20,4 @@ Download the original paper published in 2003 with more details [here](https://g
 
 ## Install
 
-Clone thenrun bower install. Check out the demo folder.
+Clone this repo and then run bower install. Check out the demo folder.
