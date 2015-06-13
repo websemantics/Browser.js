@@ -8,7 +8,7 @@ Browser.js is an implementation of MathML, HTML and SVG Layout Manager and CSS P
 
 ![Box](https://raw.githubusercontent.com/websemantics/Browser.js/master/img/browser.png)
 
-The sample demo above can bee seen Live Here, which, 
+The sample demo above can bee seen ![Live Here](http://oeasvg.com/bower_components/Browserjs/demos/script/index.html). 
 
 ## SVG, MathML and XHTML Presentation models
 
