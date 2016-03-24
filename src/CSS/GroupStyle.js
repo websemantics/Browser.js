@@ -11,9 +11,9 @@
  * VAR selectorsGroup = p,em,strong
  * VAR declarationsGroup = color : red; font-size:12pt; text-align:center;
  *
- * @author    Adnan Sagar, PhD <adnan@websemantics.ca>
- * @copyright 2002-2015 Web Semantics, Inc. (http://websemantics.ca)
- * @license   http://www.opensource.org/licenses/mit-license.php MIT
+ * @author    Adnan M.Sagar, PhD. <adnan@websemantics.io>
+ * @copyright 2002-2016 Web Semantics, Inc. (http://websemantics.io)
+ * @license   http://www.opensource.org/licenses/mit-license.php
  * @link      http://oeasvg.com/browserjs
  * @since     2nd Oct 2005
  * @package   websemantics/browserjs/css

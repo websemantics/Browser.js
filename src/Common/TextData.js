@@ -3,9 +3,9 @@
  *
  * TextData class is used to generate 'text', 'tspan' and 'a' elements in SVG. (2002)
  *
- * @author    Adnan Sagar, PhD <adnan@websemantics.ca>
- * @copyright 2002-2015 Web Semantics, Inc. (http://websemantics.ca)
- * @license   http://www.opensource.org/licenses/mit-license.php MIT
+ * @author    Adnan M.Sagar, PhD. <adnan@websemantics.io>
+ * @copyright 2002-2016 Web Semantics, Inc. (http://websemantics.io)
+ * @license   http://www.opensource.org/licenses/mit-license.php
  * @link      http://oeasvg.com/browserjs
  * @since     9th August 2002 / 27th August 2005 / 3rd May 2015
  * @package   websemantics/browserjs/common

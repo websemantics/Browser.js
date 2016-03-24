@@ -20,7 +20,7 @@
  * The Node class is the superclass for the entire Document Object Model.
  * It represent a single node in the tree.
  *
- * @author    Adnan Sagar, PhD <adnan@websemantics.ca>
+ * @author    Adnan M.Sagar, PhD. <adnan@websemantics.io>
  * @copyright 2002-2015 Web Semantics, Inc. (http://websemantics.ca)
  * @license   http://www.opensource.org/licenses/mit-license.php MIT
  * @link      http://oeasvg.com/hotdrawjs
@@ -304,7 +304,7 @@ DOMNode.prototype.hasAttributes = function() {
  * No DOM objects correspond directly to CharacterData though Text and others do
  * inherit the interface from it. All offsets in this interface start from 0.
  *
- * @author    Adnan Sagar, PhD <adnan@websemantics.ca>
+ * @author    Adnan M.Sagar, PhD. <adnan@websemantics.io>
  * @copyright 2002-2015 Web Semantics, Inc. (http://websemantics.ca)
  * @license   http://www.opensource.org/licenses/mit-license.php MIT
  * @link      http://oeasvg.com/hotdrawjs
@@ -410,7 +410,7 @@ CharacterData.prototype.toString = function() {
  *
  * Support attributes for XHTML, MathML and SVG!
  * 
- * @author    Adnan Sagar, PhD <adnan@websemantics.ca>
+ * @author    Adnan M.Sagar, PhD. <adnan@websemantics.io>
  * @copyright 2002-2015 Web Semantics, Inc. (http://websemantics.ca)
  * @license   http://www.opensource.org/licenses/mit-license.php MIT
  * @link      http://oeasvg.com/hotdrawjs
@@ -647,7 +647,7 @@ Attributes.prototype.toString = function() {
  * do more sophisticated work. A similar approach was followed to implement 
  * XHTML and SVG (2002)
  *
- * @author    Adnan Sagar, PhD <adnan@websemantics.ca>
+ * @author    Adnan M.Sagar, PhD. <adnan@websemantics.io>
  * @copyright 2002-2015 Web Semantics, Inc. (http://websemantics.ca)
  * @license   http://www.opensource.org/licenses/mit-license.php MIT
  * @link      http://oeasvg.com/hotdrawjs
@@ -828,7 +828,7 @@ Box.prototype.toStringBox = function() {
 /**
  * Browser.js : CSSBox
  *
- * @author    Adnan Sagar, PhD <adnan@websemantics.ca>
+ * @author    Adnan M.Sagar, PhD. <adnan@websemantics.io>
  * @copyright 2002-2015 Web Semantics, Inc. (http://websemantics.ca)
  * @license   http://www.opensource.org/licenses/mit-license.php MIT
  * @link      http://oeasvg.com/hotdrawjs
@@ -1079,7 +1079,7 @@ CSSBox.prototype.recalcCSSBox = function() {
  *
  * TextData class is used to generate 'text', 'tspan' and 'a' elements in SVG. (2002)
  *
- * @author    Adnan Sagar, PhD <adnan@websemantics.ca>
+ * @author    Adnan M.Sagar, PhD. <adnan@websemantics.io>
  * @copyright 2002-2015 Web Semantics, Inc. (http://websemantics.ca)
  * @license   http://www.opensource.org/licenses/mit-license.php MIT
  * @link      http://oeasvg.com/hotdrawjs
@@ -1208,7 +1208,7 @@ TextData.prototype.toString = function() {
 /**
  * Browser.js : MathML
  *
- * @author    Adnan Sagar, PhD <adnan@websemantics.ca>
+ * @author    Adnan M.Sagar, PhD. <adnan@websemantics.io>
  * @copyright 2002-2015 Web Semantics, Inc. (http://websemantics.ca)
  * @license   http://www.opensource.org/licenses/mit-license.php MIT
  * @link      http://oeasvg.com/hotdrawjs
@@ -1284,7 +1284,7 @@ function MathML( /* Box */ child) {
 /**
  * Browser.js : Tokens (Mo, Mi and Mn)
  *
- * @author    Adnan Sagar, PhD <adnan@websemantics.ca>
+ * @author    Adnan M.Sagar, PhD. <adnan@websemantics.io>
  * @copyright 2002-2015 Web Semantics, Inc. (http://websemantics.ca)
  * @license   http://www.opensource.org/licenses/mit-license.php MIT
  * @link      http://oeasvg.com/hotdrawjs
@@ -1329,7 +1329,7 @@ MathML.Mn.prototype = new TextData();
 /**
  * Browser.js : Under
  *
- * @author    Adnan Sagar, PhD <adnan@websemantics.ca>
+ * @author    Adnan M.Sagar, PhD. <adnan@websemantics.io>
  * @copyright 2002-2015 Web Semantics, Inc. (http://websemantics.ca)
  * @license   http://www.opensource.org/licenses/mit-license.php MIT
  * @link      http://oeasvg.com/hotdrawjs
@@ -1407,7 +1407,7 @@ MathML.Under.prototype = new Box();
 /**
  * Browser.js : Over
  *
- * @author    Adnan Sagar, PhD <adnan@websemantics.ca>
+ * @author    Adnan M.Sagar, PhD. <adnan@websemantics.io>
  * @copyright 2002-2015 Web Semantics, Inc. (http://websemantics.ca)
  * @license   http://www.opensource.org/licenses/mit-license.php MIT
  * @link      http://oeasvg.com/hotdrawjs
@@ -1485,7 +1485,7 @@ MathML.Over.prototype = new Box();
 /**
  * Browser.js : Sub
  *
- * @author    Adnan Sagar, PhD <adnan@websemantics.ca>
+ * @author    Adnan M.Sagar, PhD. <adnan@websemantics.io>
  * @copyright 2002-2015 Web Semantics, Inc. (http://websemantics.ca)
  * @license   http://www.opensource.org/licenses/mit-license.php MIT
  * @link      http://oeasvg.com/hotdrawjs
@@ -1572,7 +1572,7 @@ MathML.Sub.prototype = new Box();
 /**
  * Browser.js : Sup
  *
- * @author    Adnan Sagar, PhD <adnan@websemantics.ca>
+ * @author    Adnan M.Sagar, PhD. <adnan@websemantics.io>
  * @copyright 2002-2015 Web Semantics, Inc. (http://websemantics.ca)
  * @license   http://www.opensource.org/licenses/mit-license.php MIT
  * @link      http://oeasvg.com/hotdrawjs
@@ -1666,7 +1666,7 @@ MathML.Sup.prototype = new Box();
 /**
  * Browser.js : SupSub
  *
- * @author    Adnan Sagar, PhD <adnan@websemantics.ca>
+ * @author    Adnan M.Sagar, PhD. <adnan@websemantics.io>
  * @copyright 2002-2015 Web Semantics, Inc. (http://websemantics.ca)
  * @license   http://www.opensource.org/licenses/mit-license.php MIT
  * @link      http://oeasvg.com/hotdrawjs
@@ -1784,7 +1784,7 @@ MathML.SupSub.prototype = new Box();
 /**
  * Browser.js : Frac
  *
- * @author    Adnan Sagar, PhD <adnan@websemantics.ca>
+ * @author    Adnan M.Sagar, PhD. <adnan@websemantics.io>
  * @copyright 2002-2015 Web Semantics, Inc. (http://websemantics.ca)
  * @license   http://www.opensource.org/licenses/mit-license.php MIT
  * @link      http://oeasvg.com/hotdrawjs
@@ -1904,7 +1904,7 @@ MathML.Frac.prototype = new Box();
 /**
  * Browser.js : Sqrt
  *
- * @author    Adnan Sagar, PhD <adnan@websemantics.ca>
+ * @author    Adnan M.Sagar, PhD. <adnan@websemantics.io>
  * @copyright 2002-2015 Web Semantics, Inc. (http://websemantics.ca)
  * @license   http://www.opensource.org/licenses/mit-license.php MIT
  * @link      http://oeasvg.com/hotdrawjs
@@ -2030,7 +2030,7 @@ MathML.Sqrt.prototype = new Box();
 /**
  * Browser.js : Row
  *
- * @author    Adnan Sagar, PhD <adnan@websemantics.ca>
+ * @author    Adnan M.Sagar, PhD. <adnan@websemantics.io>
  * @copyright 2002-2015 Web Semantics, Inc. (http://websemantics.ca)
  * @license   http://www.opensource.org/licenses/mit-license.php MIT
  * @link      http://oeasvg.com/hotdrawjs
@@ -2177,7 +2177,7 @@ MathML.Row.prototype = new Box();
 /**
  * Browser.js : Fenced
  *
- * @author    Adnan Sagar, PhD <adnan@websemantics.ca>
+ * @author    Adnan M.Sagar, PhD. <adnan@websemantics.io>
  * @copyright 2002-2015 Web Semantics, Inc. (http://websemantics.ca)
  * @license   http://www.opensource.org/licenses/mit-license.php MIT
  * @link      http://oeasvg.com/hotdrawjs
@@ -2269,7 +2269,7 @@ MathML.Fenced.prototype = new Box();
 /**
  * Browser.js : Html / Em / A 
  *
- * @author    Adnan Sagar, PhD <adnan@websemantics.ca>
+ * @author    Adnan M.Sagar, PhD. <adnan@websemantics.io>
  * @copyright 2002-2015 Web Semantics, Inc. (http://websemantics.ca)
  * @license   http://www.opensource.org/licenses/mit-license.php MIT
  * @link      http://oeasvg.com/hotdrawjs
@@ -2309,7 +2309,7 @@ function cloneObject(what) {
 /**
  * Browser.js : Para
  *
- * @author    Adnan Sagar, PhD <adnan@websemantics.ca>
+ * @author    Adnan M.Sagar, PhD. <adnan@websemantics.io>
  * @copyright 2002-2015 Web Semantics, Inc. (http://websemantics.ca)
  * @license   http://www.opensource.org/licenses/mit-license.php MIT
  * @link      http://oeasvg.com/hotdrawjs
@@ -2492,7 +2492,7 @@ Html.Para.prototype = new CSSBox();
  *
  * Vertical Layout Manager,..
  *
- * @author    Adnan Sagar, PhD <adnan@websemantics.ca>
+ * @author    Adnan M.Sagar, PhD. <adnan@websemantics.io>
  * @copyright 2002-2015 Web Semantics, Inc. (http://websemantics.ca)
  * @license   http://www.opensource.org/licenses/mit-license.php MIT
  * @link      http://oeasvg.com/hotdrawjs
@@ -2611,7 +2611,7 @@ Html.Vertical.prototype = new CSSBox();
 /**
  * Browser.js : Image
  *
- * @author    Adnan Sagar, PhD <adnan@websemantics.ca>
+ * @author    Adnan M.Sagar, PhD. <adnan@websemantics.io>
  * @copyright 2002-2015 Web Semantics, Inc. (http://websemantics.ca)
  * @license   http://www.opensource.org/licenses/mit-license.php MIT
  * @link      http://oeasvg.com/hotdrawjs
@@ -2702,7 +2702,7 @@ Html.Image.prototype = new Box();
  *
  * Code is mainly extracted from CSS_parse.js, source: internet, author: unknown.
  *
- * @author    Adnan Sagar, PhD <adnan@websemantics.ca>
+ * @author    Adnan M.Sagar, PhD. <adnan@websemantics.io>
  * @copyright 2002-2015 Web Semantics, Inc. (http://websemantics.ca)
  * @license   http://www.opensource.org/licenses/mit-license.php MIT
  * @link      http://oeasvg.com/hotdrawjs
@@ -2914,7 +2914,7 @@ if(argv.length>0)this.initParser(root);
  * VAR selectorsGroup = p,em,strong
  * VAR declarationsGroup = color : red; font-size:12pt; text-align:center;
  *
- * @author    Adnan Sagar, PhD <adnan@websemantics.ca>
+ * @author    Adnan M.Sagar, PhD. <adnan@websemantics.io>
  * @copyright 2002-2015 Web Semantics, Inc. (http://websemantics.ca)
  * @license   http://www.opensource.org/licenses/mit-license.php MIT
  * @link      http://oeasvg.com/hotdrawjs
@@ -2964,7 +2964,7 @@ Css.GroupStyle = function( /* String */ selectorsGroup, /* String */ declaration
  *
  * Code is mainly extracted from CSS_parse.js, source: internet, author: unknown.
  *
- * @author    Adnan Sagar, PhD <adnan@websemantics.ca>
+ * @author    Adnan M.Sagar, PhD. <adnan@websemantics.io>
  * @copyright 2002-2015 Web Semantics, Inc. (http://websemantics.ca)
  * @license   http://www.opensource.org/licenses/mit-license.php MIT
  * @link      http://oeasvg.com/hotdrawjs
@@ -3024,7 +3024,7 @@ Css.Properties = function( /* String */ properties) {
  * i.e. selector = p or h1 ,etc
  * i.e. properties = color:yellow, font-size:40pt, etc
  *
- * @author    Adnan Sagar, PhD <adnan@websemantics.ca>
+ * @author    Adnan M.Sagar, PhD. <adnan@websemantics.io>
  * @copyright 2002-2015 Web Semantics, Inc. (http://websemantics.ca)
  * @license   http://www.opensource.org/licenses/mit-license.php MIT
  * @link      http://oeasvg.com/hotdrawjs
@@ -3124,7 +3124,7 @@ CSSSelectorDefinition.prototype.match = function(element, pseudo) {
 /**
  * Browserjs.js : Browserjs
  *
- * @author    Adnan Sagar, PhD <adnan@websemantics.ca>
+ * @author    Adnan M.Sagar, PhD. <adnan@websemantics.io>
  * @copyright 2002-2015 Web Semantics, Inc. (http://websemantics.ca)
  * @license   http://www.opensource.org/licenses/mit-license.php MIT
  * @link      http://oeasvg.com/hotdrawjs
@@ -3197,7 +3197,7 @@ function Browserjs() {
 /**
  * Browser.js : Browserjs.Document
  *
- * @author    Adnan Sagar, PhD <adnan@websemantics.ca>
+ * @author    Adnan M.Sagar, PhD. <adnan@websemantics.io>
  * @copyright 2002-2015 Web Semantics, Inc. (http://websemantics.ca)
  * @license   http://www.opensource.org/licenses/mit-license.php MIT
  * @link      http://oeasvg.com/hotdrawjs
