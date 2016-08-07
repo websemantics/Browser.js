@@ -1,7 +1,14 @@
-# Browser.js
-> Updated : March 24, 2016
+```
+    ________                                          ________        
+    ___  __ )_______________      __________________________(_)_______
+    __  __  |_  ___/  __ \_ | /| / /_  ___/  _ \_  ___/____  /__  ___/
+    _  /_/ /_  /   / /_/ /_ |/ |/ /_(__  )/  __/  /__ ____  / _(__  ) 
+    /_____/ /_/    \____/____/|__/ /____/ \___//_/_(_)___  /  /____/  
+                                                      /___/           
+```
+> Updated : August 7, 2016
 
-Browser.js is an implementation of MathML, HTML and SVG Layout Manager and CSS Processor (i.e. Browser) in JavaScript.
+Browser.js is an implementation of MathML, HTML and SVG Layout Manager and CSS Processor (i.e. Browser) in Javascript. This work was done in 2003 as part of an MSc degree in Web Technology, more details can be found in the original paper which can be found [here](https://github.com/websemantics/Browser.js/raw/master/docs/EGUK2003.pdf)asc
 
 
  * Part of a project that aims to render XHTML + MathML + SVG Profile,
@@ -19,8 +26,6 @@ XHTML, MathML and SVG use three different presentation models. But in order to d
 ![Box](https://raw.githubusercontent.com/websemantics/Browser.js/master/img/box.png)
 
 SVG on the other hand uses a less restricted model. But since SVG elements are to be mixed with XHTML and MathML elements then some restrictions have to be applied on them.
-
-Download the original paper published in 2003 with more details [here](https://github.com/websemantics/Browser.js/raw/master/docs/EGUK2003.pdf)
 
 
 ## Oea.svg
