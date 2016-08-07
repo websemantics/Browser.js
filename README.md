@@ -8,7 +8,7 @@
 ```
 > Updated : August 7, 2016
 
-Browser.js is an implementation of MathML, HTML and SVG Layout Manager and CSS Processor (i.e. Browser) in Javascript. This work was done in 2003 as part of an MSc degree in Web Technology, more details can be found in the original paper which can be found [HERE](https://github.com/websemantics/Browser.js/raw/master/docs/EGUK2003.pdf)
+Browser.js is an implementation of MathML, HTML and SVG Layout Manager and CSS Processor (i.e. Browser) in Javascript. This work was done in 2003 as part of an MSc degree in Web Technology, more details can be found in the original paper which can be found [here](https://github.com/websemantics/Browser.js/raw/master/docs/EGUK2003.pdf)
 
 
  * Part of a project that aims to render XHTML + MathML + SVG Profile,
@@ -16,7 +16,7 @@ Browser.js is an implementation of MathML, HTML and SVG Layout Manager and CSS P
 
 ![Box](https://raw.githubusercontent.com/websemantics/Browser.js/master/img/browser.png)
 
-The sample demo above can be seen live [HERE](http://oeasvg.com/bower_components/Browserjs/demos/script/index.html). 
+The sample demo above can be seen live [here](http://oeasvg.com/bower_components/Browserjs/demos/script/index.html). 
 
 
 ## SVG, MathML and XHTML Presentation models
